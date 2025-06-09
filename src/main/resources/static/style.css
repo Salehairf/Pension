@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header-img {
+    width: 40%;         /* smaller width */
+    max-width: 450px;   /* max width limit */
+    height: auto;       /* maintain aspect ratio */
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.navbar {
+    background-color: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00d1b2;
+}
+
+.card-section {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+.about-box {
+    background-color: #e3ecf4;
+    padding: 30px;
+    margin: 20px;
+    border-left: 6px solid #1e1e2f;
+    border-radius: 8px;
+}
+
+
+.section-heading {
+    background-color: #1e1e2f; /* same as navbar */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    margin: 40px 0 0 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h3 {
+    color: #0f4c75;
+}
+
+.about-box ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.about-box p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.card-purple {
+    background-color: #6a5acd;
+    color: white;
+}
+
+.card-orange {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.card-green {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.card-yellow {
+    background-color: #f39c12;
+    color: white;
+}
+
+.colored-cards .card {
+    color: white;
+}
+
+.red-card {
+    background-color: #e74c3c;
+}
+.green-card {
+    background-color: #27ae60;
+}
+.blue-card {
+    background-color: #2980b9;
+}
+.yellow-card {
+    background-color: #f39c12;
+}
+
+.footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
